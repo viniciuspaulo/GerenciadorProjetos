@@ -2,6 +2,7 @@
 Gerenciador de projetos
 
 ----------INFORMAÇOES IMPORTANTES------------<br>
+Projeto : Maven<br>
 IDE : Netbeans <br>
 Server : GlassFish Server 4.1.1<br>
 Banco de Dados : Postgresql<br>
