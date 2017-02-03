@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>BrunoCury</title>
+
+        <link href="resources/css/ibcury.css" rel="stylesheet" type="text/css" />
+        <link href="resources/css/page/index.css" rel="stylesheet" type="text/css" />
+        <link href="resources/frameworks/icons/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="resources/frameworks/animate.css" rel="stylesheet" type="text/css" />
+        <script src="resources/js/jquery.min.js"></script>
+    </h:head>
+    <h:body>
+        <div class="apresentacao">
+            <video loop="loop" autoplay="autoplay">
+                <source src="resources/img/video.mp4" type="video/mp4"/>
+            </video>
+            <div class="efeitoLogo">
+                <h:graphicImage url="resources/img/logo.svg" class="logoApresentacao"/>
+            </div>
+            <div class="painelEventoApresentacao">
+                <h:panelGroup >
+                    <a href="home.jsf" class="eventoApresentacao animated fadeInLeft">
+                        Ir para o site
+                    </a>
+                    <a href="#" class="eventoApresentacao animated fadeInRight">
+                        Ver vídeo de apresentação
+                    </a>
+                </h:panelGroup>
+            </div>
+        </div>
+    </h:body>
+</html>
