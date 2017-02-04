@@ -10,5 +10,5 @@ package com.gerenciador.BEAN;
  * @author vinicius
  */
 public class BeanLogin {
-    
+  
 }

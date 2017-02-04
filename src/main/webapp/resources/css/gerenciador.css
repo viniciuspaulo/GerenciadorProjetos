@@ -8,3 +8,11 @@ and open the template in the editor.
     Author     : vinicius
 */
 
+html, body {
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+
